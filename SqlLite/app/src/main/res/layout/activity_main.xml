@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Database"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLite CRUD Operations"
+            android:textSize="16sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Student ID"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Student Name"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edtCourse"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Course"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="INSERT"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VIEW"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#8E24AA"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="UPDATE"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#AB47BC"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="DELETE"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D81B60"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database Records"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Records will appear here"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:background="#FFFFFF"
+            android:padding="18dp"
+            android:minHeight="100dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

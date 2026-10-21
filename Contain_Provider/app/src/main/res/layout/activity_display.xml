@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT DETAILS"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/txtStudentData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading Student Data..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:padding="25dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>

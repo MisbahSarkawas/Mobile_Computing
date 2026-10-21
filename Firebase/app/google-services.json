@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "149860397987",
+    "project_id": "fir-curdop",
+    "storage_bucket": "fir-curdop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149860397987:android:9ecf369ac2c40dfb0c2016",
+        "android_client_info": {
+          "package_name": "com.example.firebasecurdop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UjJbO5bGwXVCD-nIGMIj_DcweOnpzvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
